@@ -1,8 +1,8 @@
-# Unifesp - Mestrado - Teste de Software
+## Unifesp - Mestrado - Teste de Software
 Atividades da disciplina Teste de Software na Unifesp SJC.
 Utilização de TypeScript e Jest para o desenvolvimento das atividades que estão separadas por semana (S1,S2,...Sn)
 
-## Resumo
+### Resumo
 
 #### Semana 1 (S1)
 ```TO DO```
