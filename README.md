@@ -4,10 +4,10 @@ Utilização de TypeScript e Jest para o desenvolvimento das atividades que est�
 
 ### Resumo
 
-#### Semana 1 (S1)
+#### *Semana 1 (S1)
 ```TO DO```
 
-#### Semana 2 (S2)
+#### *Semana 2 (S2)
 
 ##### The OddEven Kata
 ```
@@ -21,7 +21,8 @@ Steps :
 Lets divide into following steps:
 - Prints numbers from 1 to 100
 - Print "Even" instead of number, if the number is even, means divisible by 2
-- Print "Odd" instead of number, if the number is odd, means not divisible by 2 but not divisible by itself too [hint - it should not be Prime]
+- Print "Odd" instead of number, if the number is odd, means not divisible by 2 
+  but not divisible by itself too [hint - it should not be Prime]
 - Print number, if it does not meet above two conditions, means if number is Prime
 - Make method to accept any number of range [currently  we have 1 to 100]
 - Create a new method to check Odd/Even/Prime of a single supplied method
@@ -29,12 +30,13 @@ Lets divide into following steps:
 [Test-Driven Development](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S2-Test-Driven-Development)
 
 
-#### Semana 3 (S3)
+#### *Semana 3 (S3)
 ```TO DO```
 
-#### Semana 4 (S4)
+#### *Semana 4 (S4)
 ```TO DO```
 
-#### Semana 5 (S5)
-Criar Teste Estrutural para o código Imposto de Renda em: https://github.com/otaviolemos/Imposto-de-renda/blob/master/src/imposto-renda.ts
-[Teste Estrutural ou Caixa-Branca](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S5-Teste-Estrutural)
+#### *Semana 5 (S5)
+Criar Teste Estrutural para o código Imposto de Renda em: [Github Otavio Lemos](https://github.com/otaviolemos/Imposto-de-renda/blob/master/src/imposto-renda.ts)
+
+Resolução Problema: [Teste Estrutural ou Caixa-Branca](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S5-Teste-Estrutural)
