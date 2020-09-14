@@ -1,6 +1,6 @@
 module.exports = {
   roots: ['<rootDir>/src'],
-  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
+  collectCoverageFrom: ['<rootDir>/src/**/*.ts', '!**/spec/**'],
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
   testEnvironment: 'node',
