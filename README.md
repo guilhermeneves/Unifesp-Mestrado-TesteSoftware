@@ -6,7 +6,7 @@ Utilização de TypeScript e Jest para o desenvolvimento das atividades que est�
 
 * **Semana 1 (S1)**
 
-```TO DO```
+Resolução Problema: [Classe Triângulo - Teste Automatizado](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S1-Teste-Automatizado)
 
 * **Semana 2 (S2)**
 
