@@ -39,7 +39,7 @@ TDD OddEven Kata em TS: [Test-Driven Development](https://github.com/guilhermene
 
 * **Semana 4 (S4)**
 
-```TO DO```
+Quiz Resolvido: [Link](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S4-Quiz)
 
 * **Semana 5 (S5)**
 
