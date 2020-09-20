@@ -35,7 +35,7 @@ TDD OddEven Kata em TS: [Test-Driven Development](https://github.com/guilhermene
 
 * **Semana 3 (S3)**
 
-Teste Funcional - Definição de classes de equivalência: [Link](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S3-Teste-Funcional)
+Determinar se um identificador é válido ou não em Silly Pascal: [Teste Funcional - Classes de equivalência e CT](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S3-Teste-Funcional)
 
 * **Semana 4 (S4)**
 
