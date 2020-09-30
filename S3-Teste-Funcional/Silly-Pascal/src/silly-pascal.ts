@@ -5,8 +5,7 @@
 // <<deve ter no mínimo um caractere e no máximo seis caracteres de comprimento>>
 
 export function isValid(id: string): boolean {
-  let sillyPascalPattern = /^(?=.{1,6}$)[a-zA-Z][a-zA-Z0-9]*$/;
-  let isValidChr = id.match(sillyPascalPattern) ? true : false
+  let sillyPascalPattern = /^(?=.{1,6}$)[a-zA-Z][a-zA-Z0-9]*$/
 
-  return isValidChr
+  return id.match(sillyPascalPattern) ? true : false
 }
