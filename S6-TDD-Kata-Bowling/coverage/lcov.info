@@ -1,0 +1,31 @@
+TN:
+SF:src\game.ts
+FN:1,Game
+FN:4,get score
+FN:8,roll
+FNF:3
+FNH:3
+FNDA:2,Game
+FNDA:2,get score
+FNDA:40,roll
+DA:1,2
+DA:2,2
+DA:3,2
+DA:4,2
+DA:5,2
+DA:6,2
+DA:7,2
+DA:8,2
+DA:9,40
+DA:10,40
+DA:11,2
+DA:12,2
+LF:12
+LH:12
+BRDA:12,0,0,1
+BRDA:1,1,0,2
+BRDA:4,2,0,2
+BRDA:8,3,0,40
+BRF:4
+BRH:4
+end_of_record
