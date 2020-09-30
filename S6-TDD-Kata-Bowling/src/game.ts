@@ -5,7 +5,14 @@ export class Game {
 
   score (): number {
     let score = 0
-    score = this.rolls.reduce((partial, curr) => partial + curr , 0)
+    // score = this.rolls.reduce((prev, curr, index, arr) => {
+    //           return prev + curr + arr[index+1]
+    //         } , 0)
+    let i = 0
+    for(let frame = 0; frame < 10; frame++) {
+      score += this.rolls[i] + this.rolls[i + 1]
+      i += 2
+    }
     return score
   }
 
