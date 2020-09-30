@@ -9,14 +9,16 @@ beforeEach(() => {
 
 describe('Bowling Game', () => {
   test('Should score 0 for gutter game', () => {
-    Array(20).fill(0).map(() => { g.roll(0) })
+    rollMany(20, 0)
     expect(g.score).toBe(0)
   })
 
   test('should score 20 for all ones game', () => {
-    Array(20).fill(0).map(() => { g.roll(1) })
+    rollMany(20, 1)
     expect(g.score).toBe(20)
   })
 })
 
-function _
+function rollMany (n: number, pins: number): void {
+  Array(n).fill(0).map(() => { g.roll(pins) })
+}
