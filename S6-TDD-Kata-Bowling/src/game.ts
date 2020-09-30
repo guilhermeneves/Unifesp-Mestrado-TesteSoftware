@@ -10,7 +10,7 @@ export class Game {
     //         } , 0)
     let frameIndex = 0
     for(let frame = 0; frame < 10; frame++) {
-      if(this.rolls [frameIndex] + this.rolls[frameIndex+1] === 10) { //spare
+      if(this.isSpare(frameIndex)) {
         score += 10 +this.rolls[frameIndex + 2]
         frameIndex += 2
       } else {
@@ -19,6 +19,10 @@ export class Game {
       }
     }
     return score
+  }
+
+  private isSpare (frameIndex: number): boolean {
+    return this.rolls [frameIndex] + this.rolls[frameIndex+1] === 10
   }
 
   roll (pins: number): void {
