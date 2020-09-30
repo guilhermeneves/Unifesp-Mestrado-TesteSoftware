@@ -8,9 +8,10 @@ export class Game {
     // score = this.rolls.reduce((prev, curr, index, arr) => {
     //           return prev + curr + arr[index+1]
     //         } , 0)
-    let frameIndex = 0
+    let frameIndex = 0           
+
     for(let frame = 0; frame < 10; frame++) {
-      if(this.isStrike(frameIndex)) { //strike
+      if(this.isStrike(frameIndex)) {
         score += 10 + this.strikeBonus(frameIndex)
         frameIndex++
       } else if(this.isSpare(frameIndex)) {
@@ -32,7 +33,6 @@ export class Game {
   private isStrike (frameIndex: number): boolean {
     return this.rolls[frameIndex] === 10
   }
-  
 
   private spareBonus (frameIndex: number): number {
     return this.rolls[frameIndex + 2]

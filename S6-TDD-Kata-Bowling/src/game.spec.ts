@@ -18,7 +18,7 @@ describe('Bowling Game', () => {
     expect(g.score()).toBe(20)
   })
 
-  test('should score 17 with a spare followed by a 3 ball', () => {
+  test('should score 16 with a spare followed by a 3 ball', () => {
     rollSpare()
     g.roll(3)
     expect(g.score()).toBe(16)
@@ -30,6 +30,12 @@ describe('Bowling Game', () => {
     g.roll(4)
     rollMany(16, 0)
     expect(g.score()).toBe(24)
+  })
+
+  test('should score 300 for a perfect Game', () => {
+    rollMany(12, 10)
+    rollStrike()
+    expect(g.score()).toBe(300)
   })
 
   function rollSpare (): void {
