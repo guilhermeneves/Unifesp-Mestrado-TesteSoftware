@@ -18,14 +18,14 @@ export function isEven (valor: number): boolean {
 }
 
 export function isOdd (valor: number): boolean {
-  let isOdd = (valor % 2 !== 0) ? true : false
+  let isOdd = (valor >= 1 && valor % 2 !== 0) ? true : false
   return isOdd
 }
 
 export function isPrime (valor: number): boolean {
   for(let i = 2, s = Math.sqrt(valor); i <= s; i++)
     if(valor % i === 0) return false
-  return valor !== 1 && valor !== 0
+  return valor > 1
 }
 
 export function getOddEvenKata (valor: number, valor2: number): (string | number)[] {
@@ -40,6 +40,5 @@ export function getOddEvenKata (valor: number, valor2: number): (string | number
       values.push('Odd')
     else
       values.push('Erro')
-  console.log(values.join(' | '));
   return values
 }
