@@ -46,3 +46,12 @@ Quiz Resolvido: [Link](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteS
 Criar Teste Estrutural para o código Imposto de Renda em: [Github Otavio Lemos](https://github.com/otaviolemos/Imposto-de-renda/blob/master/src/imposto-renda.ts)
 
 Resolução Problema: [Teste Estrutural ou Caixa-Branca](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S5-Teste-Estrutural)
+
+* **Semana 6 (S6)**
+
+ [Implementação Kata-Bowling](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S6-TDD-Kata-Bowling) utilizando TDD / Refatoração / GIT's atômicos
+
+* **Semana 7 (S7)**
+
+[Implementação Teste de Mutação](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S7-Teste-Mutacao) na Implementação do Algoritmo Kata Odd-Even criado na Semana 2 (S2) utilizando Stryker.
+[Relatório Mutation Score](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/blob/master/S7-Teste-Mutacao/reports/Report_Mutacao.jpg)
