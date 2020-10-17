@@ -13,7 +13,7 @@ describe('Validação Número Par', () => {
   test('Deve validar se um número é par e retornar true', () => {
     expect(isEven(6)).toEqual(true)
   })
-  // Exemplo Fere Fast Principle
+  // ### 1. Teste Fere Fast Principle
   test.each(Array.from({length: 100000000000}, (_, i) => i).filter(n => n % 2))(
     '.add(%i, %i)',
     (a, expected) => {
@@ -21,7 +21,7 @@ describe('Validação Número Par', () => {
     },
   )
 })
-// Exemplo Fere Isolated Principle
+// ### 2. Teste Fere Isolated Principle
 describe('Validação Número Impar', () => {
   test('Deve validar se um número é ímpar e retornar true', () => {
     notIsolated = isOdd(9)
@@ -32,7 +32,7 @@ describe('Validação Número Impar', () => {
     notIsolated = !notIsolated
     expect(notIsolated).toEqual(false)
   })
-  // Teste fere Repeatable Principle
+  // ### 3. Teste fere Repeatable Principle
   test('Deve retornar falso se o número < 1', () => {
     let repeatablePrinciple: number = Math.round(Math.random());
     expect(isOdd(repeatablePrinciple)).toEqual(false)
@@ -47,15 +47,14 @@ describe('Validação Número é Primo', () => {
     input: process.stdin,
     output: process.stdout
   });
-  // Teste fere Self-validating Principle (Interpretacao Manual do Teste)
+  // ### 4. Teste fere Self-validating Principle (Interpretacao Manual do Teste)
   leitor.question("Insira um numero primo para testar!\n", function(answer) {
     let resp: string = answer;
     leitor.close();
   });
     expect(parseInt(resp)).toEqual(true)
   })
-  // Teste fere Timely Principle (Implementado o Sistema sem os Testes)
-  // Novo caso de teste após rodar teste mutante
+  // ### 5. Teste fere Timely Principle (Implementado o Sistema sem os Testes)
   test('Deve validar se um número não é primo e retornar false', () => {
     // # TODO
   })
