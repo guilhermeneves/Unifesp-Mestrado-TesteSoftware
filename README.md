@@ -56,3 +56,7 @@ Resolução Problema: [Teste Estrutural ou Caixa-Branca](https://github.com/guil
 [Implementação Teste de Mutação](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/tree/master/S7-Teste-Mutacao) na Implementação do Algoritmo Kata Odd-Even criado na Semana 2 (S2) utilizando Stryker.
 
 [Relatório Mutation Score](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/blob/master/S7-Teste-Mutacao/reports/Report_Mutacao.jpg)
+
+* **Semana 8 (S8)**
+
+[Exemplos de Códigos de Teste que Ferem First Principles](https://github.com/guilhermeneves/Unifesp-Mestrado-TesteSoftware/blob/master/S8-First-Principles/src/odd-even-kata.spec.ts)
